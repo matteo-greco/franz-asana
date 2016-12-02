@@ -1,6 +1,7 @@
 module.exports = (Franz, options) => {
   function getMessages() {
-    const count = parseInt(document.title.split('(')[1]) || 0;
+    const inbox = document.querySelector('.topbar-notificationsButton.has-newNotifications');
+    const count = inbox === null ? 0 : 1;
 
     Franz.setBadge(count);
   }
