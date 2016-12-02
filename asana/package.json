@@ -1,6 +1,6 @@
 {
   "name": "asana",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Asana integration",
   "main": "index.js",
   "author": "IB Redy Santiawan <goesredy@gmail.com>",
