@@ -8,7 +8,7 @@
   "config": {
     "serviceURL": "https://app.asana.com/",
     "serviceName": "Asana",
-    "message": "",
+    "message": "Asana is the easiest way for teams to track their work—and get results.",
     "popup": [],
     "hasNotificationSound": true,
     "hasTeamID": false,
