@@ -1,6 +1,7 @@
 module.exports = (Franz, options) => {
   function getMessages() {
-    const count = $(".topbar-notificationsButton.has-newNotifications").length;
+    const inbox = document.getElementsByClassName('topbar-notificationsButton has-newNotifications');
+    const count = inbox.length;
 
     Franz.setBadge(count);
   }
