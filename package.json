@@ -1,4 +1,5 @@
 {
+  "id": "asana",
   "name": "asana",
   "version": "1.0.1",
   "description": "Asana integration",
