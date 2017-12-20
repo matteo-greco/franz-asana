@@ -1,18 +1,15 @@
 # franz-asana
 
-## Franz Plugins
-
-The minimum requirement to run a custom Franz integration is Franz v. 4.0.0. To get the latest version visit [meetfranz.com](http://meetfranz.com)
+This is an update of an existing Asana recipe for Franz so that it is compatible with Franz 5.0.0. Try it out and let me know
 
 ## Installation
-1. To install a new integration, download the integration folder ( `asana` ).
-2. Open the Franz Plugins folder on your machine:
-  * Mac: `~Library/Application Support/Franz/Plugins/`
-  * Windows: `%appdata%/Franz/Plugins`
-  * Linux: `~/.config/Franz/Plugins`
-  * _Alternatively: Go to your Franz settings page, scroll down to the bottom and you will see an option to "Open the Franz plugin directory"_
+1. To install a new integration, download the integration folder e.g `asana`.
+2. Open the Franz Plugins folder on your machine (note that this `dev` directory may not exist yet, and you must create it):
+  * Mac: `~/Library/Application Support/Franz/recipes/dev/`
+  * Windows: `%appdata%/Franz/recipes/dev/`
+  * Linux: `~/.config/Franz/recipes/dev`
 3. Copy the `asana` folder into the plugins directory
-4. Restart Franz
+4. Reload Franz
 
 ## Learn more
 * Get more information about [Franz](http://meetfranz.com).
