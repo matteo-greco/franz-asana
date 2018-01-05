@@ -1,6 +1,6 @@
 {
   "id": "asana",
-  "name": "asana",
+  "name": "Asana",
   "version": "1.0.1",
   "description": "Asana integration",
   "main": "index.js",
